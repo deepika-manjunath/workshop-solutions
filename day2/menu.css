@@ -1,0 +1,26 @@
+header{
+   background-color: teal;
+   width: 500px; 
+   padding: 40px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size:35px;
+   align-items: center;
+   margin: auto;
+
+}
+h1{
+    font-family: 'Times New Roman', Times, serif ;
+    color: gold;
+}
+h2{
+    background-color: gold;
+   width:500px;
+   margin: auto;
+   margin-bottom: 20px;
+   margin-top: 20px;
+}
+h4{
+    color: brown;
+    font-family: 'Times New Roman', Times, serif;
+    
+}

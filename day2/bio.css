@@ -1,0 +1,25 @@
+header{
+    background-color: lightgray;
+   width: 500px; 
+   padding: 10px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size:35px;
+   align-items: center;
+   margin: auto;
+   font-family: 'Times New Roman', Times, serif;
+
+}
+
+.img{
+    height: 300px;
+    width: 400px;
+    clip-path: circle();
+    align-items: center;
+    margin: auto;
+     
+}
+h4{
+    background-color: lightgray;
+    width: 500px;
+    margin: auto;
+}
