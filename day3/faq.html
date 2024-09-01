@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>faq</title>
+    <style>
+        body{
+            background-color: black;
+            color: white;
+        }
+        .faq-container{
+            
+            margin; 0 auto;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .faq-question{
+            width: 500px;
+            font-weight: bold;
+            cursor: pointer;
+            border-bottom: 2px solid white;
+            padding: 20px;
+        }
+        .faq-answer{
+            width: 500px;
+            display: none;
+        
+        }
+    </style>
+</head>
+<body>
+    <div class="faq-container">
+        <h1>
+            Frequently Asked Questions
+        </h1>
+        <div class="faq-item">
+            <h3 class="faq-question">What is HTML?
+            
+            </h3>
+            <p class="faq-answer">
+                HTML, or HyperText Markup Language, is a markup language that defines the structure and content of web pages
+            </p>
+        </div>
+        <div class="faq-item">
+            <h3 class="faq-question">What is CSS?</h3>
+            <p class="faq-answer">
+                CSS is used to define styles for your web pages, including the design, layout and variations in display for different devices and screen sizes.   
+            </p>
+        </div>
+        <div class="faq-item">
+            <h3 class="faq-question">What is Java Script?</h3>
+            <p class="faq-answer">
+                JavaScript (JS) is a programming language that adds interactivity to websites. It can be used to control multimedia, animate images, and create dynamically updating content. 
+            </p>
+        </div>
+    </div>
+    <script>
+        
+        const faqQuestions = document.querySelectorAll('.faq-question');
+
+        faqQuestions.forEach(question => {
+            question.addEventListener('click', () => {
+                const answer = question.nextElementSibling; 
+
+                answer.style.display = answer.style.display === 'block' ? 'none' : 'block';
+                
+            });
+        });
+    </script>
+</body>
+</html>
