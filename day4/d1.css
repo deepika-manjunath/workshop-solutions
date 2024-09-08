@@ -1,0 +1,99 @@
+body{
+    margin:0;
+    padding: 0;
+    border: border-box;
+ 
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    display: block;
+}
+header{
+    position: fixed;
+    top: 0px;
+    
+}
+
+.titlebar{
+    width:100vw;
+    height:60px;
+    background-color:black;
+   
+    
+    
+}
+/* .nav-logo{
+width:78px;
+height:60px ;
+
+}
+.logo{
+    background-image: url("day4\assets\logo-no-background.png");
+    background-size: cover;
+    width: 100%;
+    height: 60px;
+   
+} */
+ 
+ .title{
+    width:100vw;
+    height:60px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+letter-spacing: 10px;
+margin: 0;
+
+ }
+ .t1{
+    color:white;
+
+ }
+ .t2{
+    color:white;
+ }
+ .title:hover{
+    letter-spacing: 20px;
+    transition: 1s ease;
+ }
+ .cont{
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+ }
+ 
+ .img{
+    margin:10px;
+    height: 250px;
+    width:300px;
+background-image: url('d1.jpg');
+background-size: cover;
+ }
+ .price{
+    font-size: 20px;
+   
+ }
+ .desc2{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 10px;
+ }
+ button{
+    margin:20px;
+    background-color: #d7707c;
+    border: none;
+    color: white;
+    width:200px;
+    height: 30px;
+ }
+ footer{
+    background-color:black;
+    height: 30px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white
+
+}
